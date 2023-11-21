@@ -1,0 +1,32 @@
+header {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: pink;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    background: white;
+    padding: 20px;
+    width: 100%;
+    display: inline-table;
+}
+ul li{
+    float: left;
+}
+ul li:hover{
+    background: white;
+}
+ul li:hover a{
+    color: blueviolet;
+    background: rgb(214, 180, 180);
+}
+ul li a{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+}
